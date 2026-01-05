@@ -1,4 +1,4 @@
-# Logical Expression Analyzer
+# Logical Analyzer
 
 ## Project Overview
 This is a C++ console application designed to analyze logical propositions. It allows users to input logical expressions, generates truth tables for up to 10 variables, and evaluates the logical status of the statements (Tautology, Contradiction, or Contingency).
