@@ -37,7 +37,7 @@ int main()
         {
             char expr[100];      // A char Array is used to store sequence of chracters terminated by null '\0' chracter
             char vars[1000];       // 2D Array for storing unique variables
-            static int table[2048][1000]; // A 2D Array for storing all possible Combinations
+            static int table[10000][1000]; // A 2D Array for storing all possible Combinations
             cout << "\nSingle expression Selected\n " << endl;
             inputSingleExpression(expr);
 
@@ -60,7 +60,7 @@ int main()
         else if (option == 2)
         {
             char expr1[100], expr2[100], vars[1000];
-            static int table[2048][1000];
+            static int table[10000][1000];
 
             cout << "\nTwo expressions Selected\n " << endl;
             inputTwoExpressions(expr1, expr2);
