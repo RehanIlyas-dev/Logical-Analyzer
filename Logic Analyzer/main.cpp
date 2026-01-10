@@ -394,17 +394,29 @@ int getVariableValue(char var, char vars[], int tableRow[], int varCount)
 int getPrecedence(char op)
 {
     if (op == '!' || op == '~')
+    {
         return 5;
+    }
     if (op == '&')
+    {
         return 4;
+    }
     if (op == '|')
+    {
         return 3;
+    }
     if (op == '^')
+    {
         return 2;
+    }
     if (op == '>')
+    {
         return 1;
+    }
     if (op == '=')
+    {
         return 0;
+    }
     return -1;
 }
 
